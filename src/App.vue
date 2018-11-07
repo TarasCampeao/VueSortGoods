@@ -6,24 +6,18 @@
 <template>
   <div id="app">
     <goods></goods>
-    <goods-button></goods-button>
-    <ingridient-result></ingridient-result>
   </div>
 </template>
 
 <script>
 import fetchData from './api/goods.json'
 import Goods from "./components/Goods.vue"
-import GoodsButton from "./components/GoodsButton.vue"
-import IngridientResult from "./components/IngridientResult.vue"
 
 
 export default {
   name: 'app',
   components: {
   	Goods,
-    GoodsButton,
-    IngridientResult,
   },
 };
 </script>

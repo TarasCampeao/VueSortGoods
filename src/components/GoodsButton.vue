@@ -1,7 +1,9 @@
 <template>
-	<div class="container goods_zone">
+	<div class="goods_zone">
 		<ul class="add_list">
-			<li v-for="(item, value) in items" :key="item.id">
+			<li v-for="(item, value) in items"
+			    :key="item.id"
+			>
 				<button class="btn_goods">{{ value }}</button>
 			</li>
 		</ul>
