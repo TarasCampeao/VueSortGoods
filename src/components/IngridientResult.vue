@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<p v-if="!ingridients.length">No results for ingridient!</p>
+	<div class="ing_result">
+		<p v-if="!ingridients.length">No results for ingridients!</p>
 		<div v-if="ingridients.length" class="result_ing">
 			<ul class="ing_list">
 				<li
